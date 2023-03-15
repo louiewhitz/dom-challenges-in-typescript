@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <HotButton className="btnClass" />
+        <HotButton className="btnClass" />
       </header>
     </div>
   );

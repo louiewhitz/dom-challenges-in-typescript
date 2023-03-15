@@ -1,0 +1,99 @@
+/* stylelint-disable color-function-notation */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  white-space: pre;
+  background-color: rgb(228 243 247);
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.flex-center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.text-container {
+  transition: color 0.7;
+  font-family: "Patua One", cursive;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+span {
+  text-align: center;
+  transition: color 0.3s ease-in;
+  transition: border-bottom-color 0.3s ease-in;
+}
+
+span.incorrect {
+  color: red;
+  border-bottom: solid 3px red;
+}
+
+span.correct {
+  color: greenyellow;
+}
+
+span.active {
+  border-bottom: solid 3px black;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+}
