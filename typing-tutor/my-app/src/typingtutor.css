@@ -59,7 +59,7 @@ span.incorrect {
 }
 
 span.correct {
-  color: greenyellow;
+  color: rgb(127, 47, 255);
 }
 
 span.active {
